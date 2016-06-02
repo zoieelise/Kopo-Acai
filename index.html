@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Demo - Simple parallax scrolling tutorial</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+		<!--
+			* This demo was prepared for you by Petr Tichy - Ihatetomatoes.net
+			* Want to see more similar demos and tutorials?
+			* Help by spreading the word about Ihatetomatoes blog.
+			* Facebook - https://www.facebook.com/ihatetomatoesblog
+			* Twitter - https://twitter.com/ihatetomatoes
+			* Google+ - https://plus.google.com/u/0/109859280204979591787/about
+		-->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <style type="text/css">
+			body {
+				font-family: 'Open Sans', sans-serif;
+			}
+		</style>
+    </head>
+    <body class="loading">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+       	
+       	<div id="preload">
+	       	<img src="img/header.svg">
+	       	<img src="img/blank.jpg">
+	       	<img src="img/AdobeStock_64337763_WM.jpg">
+	       	<img src="img/bottom.jpg">
+       	</div>
+       	
+       	<main>
+       	 
+	        <!-- <section id="slide-1" class="homeSlide">
+	        	<div class="bcg">
+		        	<div class="hsContainer">
+			    		<div class="hsContent">
+				    		<h2>Simple parallax scrolling is...</h2>
+			    		</div>
+		        	</div>
+	        	</div>
+		    </section> -->
+		  <section id="slide-1" class="homeSlide"><a name="home">
+		    <a href="index.html"><img class="logo" src="img/KOPO_logos-01.png"></a>
+		    <div class="nav">
+		     <ul>
+		        <li><a href="#product">PRODUCT</a></li>
+		        <li class="story"><a class="active" href="#story">STORY</a></li>
+		        <li class="contact"><a href="#contact">CONTACT</a></li>
+		      </ul>
+		      </div></a>
+    	<div class="bcg"
+		        data-center="background-position: 50% 0px;"
+		        data-top-bottom="background-position: 50% -100px;"
+		        data-anchor-target="#slide-1">
+        <div class="hsContainer">
+            <div class="hsContent"
+                data-center="bottom: 200px; opacity: 1"
+                data-top="bottom: 1200px; opacity: 0"
+                data-anchor-target="#slide-1 h2">
+                
+                <h2></h2>
+				
+      
+            </div>
+        </div>
+    </div>
+
+</section>
+
+		    <!-- <section id="slide-2" class="homeSlide">
+		    	<div class="bcg">
+			    	<div class="hsContainer">
+			    		<div class="hsContent">
+				    		<h2>great for story telling websites.</h2>
+			    		</div>
+		        	</div>
+		    	</div>
+		    </section> -->
+	 <section  id="slide-2" class="homeSlide"><a name="product">
+    	<div class="bcg"
+	        data-center="background-position: 50% 0px;"
+	        data-top-bottom="background-position: 50% -100px;"
+	        data-bottom-top="background-position: 50% 100px;"
+	        data-anchor-target="#slide-2"></a>
+
+        <div class="hsContainer">
+            <div class="hsContent"
+                data-center="opacity: 1"
+                data-100-top="opacity: 0"
+                data--800-bottom="opacity: 0;"
+                data-anchor-target="#slide-2">
+                <a name="product" class="our-product"><h2 
+                data-center="h2-position: 50% 0px;"
+		        data-top-bottom="h2-position: 50% -100px;"
+		        data-bottom-top="h2-position: 50% 100px;"
+		        data-anchor-target="#slide-2">Our Product</h2></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+		    
+			<!-- <section id="slide-3" class="homeSlide">
+				<div class="bcg">
+			    	<div class="hsContainer">
+		    			<div class="hsContent">
+				    		<h2>Now go and create your own story</h2>
+			    		</div>
+			    	</div>
+			    	
+			    </div>
+			</section> -->
+	<section id="slide-3" class="homeSlide"><a name="story">
+   		 <div class="bcg"
+	        data-center="background-position: 50% 0px;"
+	        data-top-bottom="background-position: 50% -100px;"
+	        data-bottom-top="background-position: 50% 100px;"
+	        data-anchor-target="#slide-3"></a>
+        <div class="hsContainer">
+            <div class="hsContent"
+                data-center="opacity: 1"
+                data-90-top="opacity: 0"
+                data--400-bottom="opacity: 0;"
+                data-anchor-target="#slide-3">
+                
+                <h2>Our Story</h2>
+                <table cellspacing="5" cellpadding="5">
+				  <colgroup>
+				    <col span="2" >
+				    <col >
+				  </colgroup>
+				  <tr class="icons">
+				    <td class="happy"><img src="img\icons\i-01.png" alt="" border='3' height='50'  /></td>
+				    <td class="frozen"><img src="img\icons\i-02.png" alt="" border='3' height='50'  /></td>
+				    <td class="energy"><img src="img\icons\i-03.png" alt="" border='3' height='50'  /></td>
+				  </tr>
+				  <tr class="top-copy">
+				    <td class="col-1">Happy Farmers. Happy Fruit.</td>
+				    <td class="col-2">Frozen at it’s freshest</td>
+				    <td class="col-3">A natural source of energy</td>
+				  </tr>
+				  <tr class="copy">
+				    <td class="col-1">We believe that food tastes better when it comes from a sustainable farm, is picked by well-paid farmers and packed with plenty of TLC. So, that’s how we make our each of our Sorbet Pops. We think you can taste the difference. </td>
+				    <td class="col-2">Our proprietary FreezFresh™ process 
+					extracts the pulp of the acai after harvesting approximately 66% faster than processes used by similar companies. Ensuring the freshest acai and most nutrients arrive at 
+					your door in record time. So fast, even our berries get jetlag.</td>
+				    <td class="col-3">The abundance of essential vitamins and minerals makes this amazing super fruit a perfect addition to a ninja’s diet. Or yours. These vitamins and minerals naturally provide high levels of energy, strengthen muscles and help prevent anemia.</td>
+				  </tr>
+				  <tr class="icons2">
+				    <td class="omega"><img src="img\icons\i-04.png" alt="" border='3' height='50'  /></td>
+				    <td class="anti"><img src="img\icons\i-05.png" alt="" border='3' height='50'  /></td>
+				    <td class="col-3"></td>
+				  </tr>
+				  <tr class="top-copy">
+				    <td class="col-1">Contains healthy omegas</td>
+				    <td class="col-2">Rich in antioxidants</td>
+				    <td class="col-3"></td>
+				  </tr>
+				  <tr class="copy">
+				    <td class="col-1">Acai contains omega-6 and omega-9 as well other properties that aid in balancing cholesterol levels, reducing bad cholesterol (LDL) and maintaining good cholesterol (HDL). Doing so prevents blood clots and other 
+cardiovascular problems. Ohm.</td>
+				    <td class="col-2">Acai contains a high amount of antioxidants, including anthocyanin, which helps prevent many degenerative diseases and is a natural way to slow the body’s aging process. Sweet.</td>
+				    <td class="col-3"></td>
+				  </tr>
+				</table>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+			
+			<!-- <section id="slide-4" class="homeSlide">
+				<div class="bcg">
+			    	<div class="hsContainer">
+		    			<div class="hsContent">
+				    		<h2>and share mine.</h2>
+			    		</div>
+			    	</div>
+			    	
+			    </div>
+			</section> -->
+	<section id="slide-4" class="homeSlide">
+     
+    <div class="bcg"
+        data-center="background-position: 50% 0px;"
+        data-top-bottom="background-position: 50% -100px;"
+        data-bottom-top="background-position: 50% 100px;"
+        data-anchor-target="#slide-4"
+    >
+   		<!-- 808 --><img class="organic" src="img/organic.png">
+   		<table class="social">
+				  <colgroup>
+				    <col span="2" >
+				    <col >
+				  </colgroup>
+				  <tr class="social-m">
+				    <td class="external"><a href="http://www.w3schools.com/html/"><img src="img/icons/social-01.png" alt="" border='7' height='25'/></a></td>
+				    <td class="external"><a href="twitter.com"><img src="img/icons/social-02.png" alt="" border='7' height='25'/></a></td>
+				    <td class="external"><a href="twitter.com"><img src="img/icons/social-03.png" alt="" border='7' height='25'/></a></td>
+				    <td class="external"><a href="twitter.com"><img src="img/icons/social-04.png" alt="" border='7' height='25'/></a></td>
+				  </tr>
+				</table>
+   		
+        <div class="hsContainer">
+            <div class="hsContent"
+                data-center="opacity: 1"
+                data-90-top="opacity: 0"
+                data--400-bottom="opacity: 1;"
+                data-anchor-target="#slide-4"
+            >
+                <h2>Let your people talk to our people</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="slide-5" class="homeSlide"><a name="contact">
+    
+    <div class="bcg"
+        data-center="background-position: 50% 0px;"
+        data-top-bottom="background-position: 50% -100px;"
+        data-bottom-top="background-position: 50% 100px;"
+        data-anchor-target="#slide-5"
+    ></a>
+    <!-- 808 --><a href="#home"><img class="logo2" src="img/KOPO_logos-01-01.png"></a>
+   
+        <div class="hsContainer">
+            <div class="hsContent"
+                data-center="opacity: 1"
+                data-90-top="opacity: 0"
+                data--400-bottom="opacity: 0;"
+                data-anchor-target="#slide-5"
+            >
+                <h2></h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+		    
+		</main>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/imagesloaded.js"></script>
+        <script src="js/skrollr.js"></script>
+        <script src="js/_main.js"></script>
+
+    </body>
+</html>
